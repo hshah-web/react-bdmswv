@@ -6,18 +6,15 @@ function Panel() {
       <div>
         <h1>Left Panel</h1>
           <ul>
-            <ls>
+            <li>
               Accounts
-            </ls>
-            <br></br>
-            <ls>
+            </li>
+            <li>
               Payments
-            </ls>
-            <br></br>
-            <ls>
+            </li>
+            <li>
               Alerts
-            </ls>
-            <br></br>
+            </li>
           </ul>
         <h1>Right Panel</h1>  
       </div>
