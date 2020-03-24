@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 import './style.css';
 import Header from "./common-components/header";
 import Footer from "./common-components/footer";
-import SideBar from "./common-components/sidebar";
-
+import Panel from "./common-components/panel";
 // ReactDOM.render(routing, document.getElementById("root"));
 class App extends Component {
   constructor() {
@@ -17,8 +16,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <SideBar />
         <Header />
+        <Panel />
         <Footer />
       </div>
     );
