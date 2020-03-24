@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
-import Hello from './Hello';
 import './style.css';
 import Header from "./common-components/header-component";
 import Footer from "./common-components/footer-component";
-import SideBar from "./common-component/sidebar-component"
-import { browserHistory, Router, Route, Switch } from 'react-router';
+import SideBar from "./common-components/sidebar-component";
+import { Router, Switch } from 'react-router';
 
 const App = (
   <Router>
     <div>
+      <SideBar />
       <Header />
       <hr />
       <Switch>
-        <Route exact path="/" component={Header} />
+        {/* <Route exact path="/" component={Header} />
         <Route path="/users" component={Footer} />
         <Route path="/contact" component={SideBar} />
-        <Route component={Notfound} />
+        <Route component={Notfound} /> */}
       </Switch>
       <Footer />
     </div>
