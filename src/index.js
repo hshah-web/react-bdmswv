@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import ReactDOM from 'react-dom'
+import React from 'react';
 import './style.css';
 import Header from "./common-components/header-component";
 import Footer from "./common-components/footer-component";
 import SideBar from "./common-components/sidebar-component";
 import { Router, Switch } from 'react-router';
 
-const App = (
+const routing = (
   <Router>
     <div>
       <SideBar />
