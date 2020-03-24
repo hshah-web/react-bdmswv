@@ -4,17 +4,18 @@ import Hello from './Hello';
 import './style.css';
 import Header from "./common-components/header-component";
 import Footer from "./common-components/footer-component";
+import SideBar from "./common-component/sidebar-component"
 import { browserHistory, Router, Route, Switch } from 'react-router';
 
-const routing = (
+const App = (
   <Router>
     <div>
       <Header />
       <hr />
       <Switch>
-        <Route exact path="/" component={App} />
-        <Route path="/users" component={Users} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/" component={Header} />
+        <Route path="/users" component={Footer} />
+        <Route path="/contact" component={SideBar} />
         <Route component={Notfound} />
       </Switch>
       <Footer />
