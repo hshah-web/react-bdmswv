@@ -3,7 +3,7 @@ import React from "react";
 function RightPanel() {
   return (
     <div>
-      <h1>Accounts</h1>
+      <h2>Accounts</h2>
     </div>
   );
 }
